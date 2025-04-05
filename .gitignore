@@ -1,0 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore compiled binaries (if any)
+*.o
+*.so
+*.exe
+*.dll
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test artifacts
+test_chunks/
+merged_test_file.txt
+
+# Ignore dependencies (if using virtualenv)
+Pipfile
+Pipfile.lock
+
+# Ignore build files (if using C extensions)
+build/
+dist/
+*.egg-info/
